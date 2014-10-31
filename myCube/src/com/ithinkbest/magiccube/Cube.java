@@ -31,7 +31,15 @@ public class Cube {
     private int state2;
     private int state3;
     
-    
+    public Cube() {
+       
+        state=0;
+        state1=0;
+        state2=0;
+        state3=0;
+        
+    }
+ 
     
     
     public Cube(int state) {
@@ -127,7 +135,7 @@ public class Cube {
     
     @Override
     public String toString(){
-        return state1+"-"+state2+"-"+state3;
+        return state1+"-"+state2+"-"+state3+" ";
     }
     
     public static void main(String[] args){
